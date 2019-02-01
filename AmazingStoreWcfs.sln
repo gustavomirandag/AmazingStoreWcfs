@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{E7B639F1-2EA6-4349-9C74-E092CB36D6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductDetailsService", "ProductDetailsService", "{C46D1027-ECD4-4743-932E-7C188879E43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CartService", "CartService", "{4B28D6B5-EAF2-499D-981C-D06420F7DB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogServiceWcf", "CatalogServiceWcf\CatalogServiceWcf.csproj", "{CAEDA501-12CD-4F4A-9670-55D5E09D0723}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAEDA501-12CD-4F4A-9670-55D5E09D0723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEDA501-12CD-4F4A-9670-55D5E09D0723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEDA501-12CD-4F4A-9670-55D5E09D0723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEDA501-12CD-4F4A-9670-55D5E09D0723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAEDA501-12CD-4F4A-9670-55D5E09D0723} = {E7B639F1-2EA6-4349-9C74-E092CB36D6EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB934A56-77FD-48F7-8C39-CEDC6D9D3F8D}
